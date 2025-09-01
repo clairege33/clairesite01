@@ -1,8 +1,66 @@
-.DS_Store
-
-_site
-.sass-cache
-.jekyll-cache
+# ---------------------------
+# Jekyll build output
+# ---------------------------
+_site/
+.sass-cache/
+.jekyll-cache/
+.sass-cache/
 .jekyll-metadata
 
-Gemfile.lock
+# ---------------------------
+# Bundler config and gems
+# ---------------------------
+.bundle/
+
+# ---------------------------
+# System files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Logs and temporary files
+# ---------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ---------------------------
+# Editor/IDE folders
+# ---------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------------------------
+# Node / npm (if using JS tooling)
+# ---------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ---------------------------
+# Local environment/config files
+# ---------------------------
+.env
+.env.local
+.env.*.local
+
+# ---------------------------
+# Mac-specific
+# ---------------------------
+.AppleDouble
+.LSOverride
+
+# ---------------------------
+# Ignore package-lock if using npm or Yarn (optional)
+# ---------------------------
+package-lock.json
+yarn.lock
+
+# ---------------------------
+# Ignore temp backup files
+# ---------------------------
+*~
+
