@@ -482,3 +482,9 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* Override site fonts */
+body, h1, h2, h3, h4, h5, h6, .navbar, .btn, p {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
