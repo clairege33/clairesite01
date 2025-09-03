@@ -49,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "❀";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -126,7 +126,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 12px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -494,7 +494,7 @@ body, h1, h2, h3, h4, h5, h6, .navbar, .btn, p {
 */
 
 h1, h2, h3, h4, h5, h6 {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: "Garamond", "EB Garamond", serif;
     font-weight: 700;
 }
@@ -515,5 +515,14 @@ header.header-bg {
   justify-content: center;
   color: white;                 /* adjust text color for visibility */
   text-align: center;
+}
+
+/* Remove square background on active nav links, use text color highlight instead */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent !important; /* removes the shaded square */
+    box-shadow: none !important;              /* removes any shadow */
+    color: #C6AD94 !important;                /* use your highlight color */
 }
 
