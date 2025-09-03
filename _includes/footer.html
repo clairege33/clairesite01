@@ -16,8 +16,8 @@
           <ul class="list-inline">
             {% for network in site.social %}
             <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+              <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank" rel="noopener"><i
+                  class="bi bi-{{ network.title | downcase }}"></i></a>
             </li>
             {% endfor %}
           </ul>
@@ -43,6 +43,6 @@
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll visible-xs visible-sm">
   <a class="btn btn-primary" href="#page-top">
-    <i class="fa fa-chevron-up"></i>
+    <i class="bi bi-chevron-up"></i>
   </a>
 </div>
