@@ -5,7 +5,9 @@ url: https://clairege33.github.io/clairesite01/
 #description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 #keywords: "your keywords, separated by commas"
 #skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+
+#meta_author: LastName FirstName
+
 
 # Google webmaster tools
 google_verify:
@@ -31,8 +33,10 @@ color:
   secondary-dark: C6AD94
 
 # Footer settings
+
 footer:
   copyright: Claire Ge
+
 #  location: Location
 #  social: Around the Web
 #  credits: Credits
@@ -50,6 +54,7 @@ footer:
 #  - title: github
 #    url: http://github.com/jekyll
 
+
 # Social networks (Bootstrap Icons compatible names)
 social:
   - title: twitter
@@ -64,6 +69,7 @@ social:
     url: https://instagram.com/yourhandle
   - title: envelope
     url: mailto:cyuege33@gmail.com
+
 
 # Postal address (add as many lines as necessary)
 #address:
