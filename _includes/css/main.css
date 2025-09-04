@@ -505,7 +505,7 @@ body, p, li, span, a {
 
 
 header.header-bg {
-  background-image: url('../img/bg.png'); /* path to your image */
+  background-image: url('/img/bg.png'); /* path to your image */
   background-size: cover;       /* makes the image cover entire header */
   background-position: center;  /* center the image */
   background-repeat: no-repeat; /* prevent tiling */
